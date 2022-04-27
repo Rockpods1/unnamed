@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'apple';
+  src: url('Apple.ttf');
+}
+.head {
+  width: 100%;
+  height: 80px;
+  padding:0;
+  margin:0;
+  display: flex;
+  align-items: center;
+  background-color: #555568;
+}
+body {
+  margin: 0;
+  background-color: #211e20;
+}
+.option {
+  cursor: pointer;
+  border: none;
+  background-color: #a0a08b;
+  color: #e9efec;
+  font-family: 'apple';
+  font-size: 130%;
+  margin-left: 20px;
+}
+.option:hover {
+  color: #555568;
+}
+.star {
+  margin-left: 20px;
+}
+.game {
+  display:inline-block;
+  background-color: #a0a08b;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #555568;
+  color: #e9efec;
+  font-family: 'apple';
+  font-size: 15px;
+  text-decoration: none;
+  width:240px;
+  height:230px;
+  margin: 10px;
+}
+.preview {
+  width:180px;
+  height:180px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #555568;
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: optimize-contrast;
+}
+.credit {
+  font-size: 10px;
+}
